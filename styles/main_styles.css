@@ -34,16 +34,15 @@ COLOR PALETTE
 7. Gallery
 8. Services
 9. New Project
-10. Quote
-11. Work
-12. Team
-13. Stats
-14. Testimonials
-15. Clients
-16. Contact
-	16.1 Form
-17. Footer
-	17.1 Subscribe Form
+10. Work
+11. Team
+12. Stats
+13. Testimonials
+14. Clients
+15. Contact
+	15.1 Form
+16. Footer
+	16.1 Subscribe Form
 
 
 ******************************/
@@ -1219,64 +1218,8 @@ section
 	z-index: 1000;
 }
 
-/***********
-10. Quote
-***********/
-
-#quote
-{
-	padding-top: 150px;
-	padding-bottom: 150px;
-	background-image: url(../images/quote_background.jpg);
-	background-size: cover;
-	background-position: center center;
-	background-repeat: no-repeat;
-	text-align: center;
-}
-.quote_overlay
-{
-	display: block;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-image: url(../images/quote_background_overlay.png);
-	background-size: cover;
-	background-position: center center;
-	background-repeat: no-repeat;
-}
-.quote_content
-{
-	display: block;
-	position: relative;
-	font-size: 26px;
-	font-weight: 400;
-	text-align: left;
-	vertical-align: baseline;
-	font-style: italic;
-	letter-spacing: 1px;
-	color: #b5b5b7;
-	z-index: 10;
-}
-.quote_author,
-.quote_author_role
-{
-	margin-top: 45px;
-	font-size: 13px;
-	text-transform: uppercase;
-	font-weight: 700;
-	letter-spacing: 1px;
-	font-style: normal;
-}
-.quote_author_role
-{
-	margin-top: 8px;
-	font-weight: 300;
-}
-
 /**********
-11. Work
+10. Work
 **********/
 
 #work
@@ -1399,7 +1342,7 @@ section
 }
 
 /**********
-12. Team
+11. Team
 **********/
 
 #team
@@ -1600,7 +1543,7 @@ section
 }
 
 /***********
-13. Stats
+12. Stats
 ***********/
 
 #stats
@@ -1675,7 +1618,7 @@ section
 }
 
 /******************
-14. Testimonials
+13. Testimonials
 ******************/
 
 #testimonials
@@ -1815,7 +1758,7 @@ section
 }
 
 /*************
-15. Clients
+14. Clients
 *************/
 
 #clients
@@ -1884,7 +1827,7 @@ section
 }
 
 /*************
-16. Contact
+15. Contact
 *************/
 
 #contact
@@ -1959,7 +1902,7 @@ section
 }
 
 /***********
-16.1 Form
+15.1 Form
 ***********/
 
 #contact-form
@@ -2100,7 +2043,7 @@ section
 }
 
 /************
-17. Footer
+16. Footer
 ************/
 
 #footer
@@ -2211,7 +2154,7 @@ section
 }
 
 /*********************
-17.1 Subscribe Form
+16.1 Subscribe Form
 *********************/
 
 #subscribe-form
